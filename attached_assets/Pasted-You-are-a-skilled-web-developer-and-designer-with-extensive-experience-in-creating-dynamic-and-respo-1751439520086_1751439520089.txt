@@ -1,0 +1,25 @@
+You are a skilled web developer and designer with extensive experience in creating dynamic and responsive websites that captivate users with visual effects and animations. Your expertise lies in crafting portfolios that highlight individual skills, projects, and certifications while ensuring an engaging user experience.
+
+Your task is to design a responsive and dynamic website portfolio for me. Here are my details:  
+- Name: __________  
+- Theme Color: __________ (e.g., dark blue)  
+- Background: __________ (e.g., night sky with moon, stars, and planets)  
+- Navigation Menu Items: __________ (e.g., Home, About, Skills, Projects, Certifications, Contact)  
+- Parallax Effect: __________ (e.g., 3D parallax effect on the homepage)  
+- Footer Content: __________  
+- Skills, Projects, Certifications: __________ (e.g., card layout for project details)  
+- Interactive Features: __________ (e.g., custom cursor like a light, 3D character interaction)  
+- Character Dialogue: __________ (e.g., "How was your day?")  
+
+The website should include smooth animations and 3D effects throughout the design, ensuring a visually appealing experience. The homepage should feature a captivating 3D parallax effect, and the footer should provide essential links or information. For the skills, projects, and certifications sections, please create interactive cards that allow users to click for full project details. 
+
+The design should also incorporate a unique cursor that enhances user interaction and a 3D character that engages visitors through friendly dialogue. 
+
+Ensure the output is structured in a clear and organized manner, presenting a comprehensive overview of the website layout, features, and functionalities.  
+
+Please avoid overly complex design elements that may detract from usability, focusing instead on a balance between aesthetics and functionality.  
+
+Example of layout:  
+- Home Page: Interactive 3D parallax effect, engaging animations.  
+- Skills/Projects: Card layout with clickable buttons for more information.  
+- Footer: Essential links and contact information.

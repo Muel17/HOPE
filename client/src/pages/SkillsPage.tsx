@@ -80,10 +80,11 @@ export const SkillsPage = () => {
               exit={{ opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
               whileHover={{ 
-                scale: 1.05,
-                transition: { duration: 0.2 }
+                scale: 1.02,
+                transition: { duration: 0.15, ease: "easeOut" }
               }}
-              className="card-hover bg-background-secondary rounded-lg p-6 border border-primary-800/30 cursor-hover"
+              className="skill-card bg-background-secondary rounded-lg p-6 border border-primary-800/30 cursor-hover transform-gpu"
+              style={{ willChange: 'transform' }}
             >
               <div className="text-center">
                 <div className="text-4xl mb-4">{skill.icon}</div>

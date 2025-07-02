@@ -45,6 +45,21 @@
 }
 
 @layer components {
+  /* Performance optimizations */
+  .transform-gpu {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
+  
+  .skill-card {
+    transition: transform 0.15s ease-out;
+  }
+  
+  .skill-card:hover {
+    transform: translateZ(0) scale(1.02);
+  }
+  
   .custom-cursor {
     position: fixed;
     width: var(--cursor-size);

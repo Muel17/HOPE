@@ -110,6 +110,16 @@ Changelog:
   * Smooth animations using Framer Motion
   * Modern tech stack: React, TypeScript, Tailwind CSS, Vite
 
+- July 02, 2025. Performance optimizations and enhanced night sky design:
+  * Fixed cursor lag issues on skills page with requestAnimationFrame throttling
+  * Added beautiful moon with glow effects and realistic craters
+  * Enhanced night sky with 150+ stars, constellation patterns, and nebula effects
+  * Added Saturn-like planet with rings and other celestial objects
+  * Improved parallax layers with independent scroll speeds for moon, stars, and planets
+  * Optimized animations with GPU acceleration and will-change properties
+  * Reduced hover scale effects for smoother performance
+  * Added transform-gpu classes for hardware acceleration
+
 ## Development Notes
 
 ### Customization Variables

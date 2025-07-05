@@ -1,21 +1,21 @@
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { QueryClientProvider } from '@tanstack/react-query';
 import { Router, Route } from 'wouter';
-import { CustomCursor } from '@/components/CustomCursor';
-import { ParallaxBackground } from '@/components/ParallaxBackground';
-import { Navigation } from '@/components/Navigation';
-import { HomePage } from '@/pages/HomePage';
-import { AboutPage } from '@/pages/AboutPage';
-import { SkillsPage } from '@/pages/SkillsPage';
-import { ProjectsPage } from '@/pages/ProjectsPage';
-import { CertificationsPage } from '@/pages/CertificationsPage';
-import { ContactPage } from '@/pages/ContactPage';
-import { Footer } from '@/components/Footer';
-import { queryClient } from '@/lib/queryClient';
+import { CustomCursor } from './components/CustomCursor';
+import { ParallaxBackground } from './components/ParallaxBackground';
+import { Navigation } from './components/Navigation';
+import { HomePage } from './pages/HomePage';
+import { AboutPage } from './pages/AboutPage';
+import { SkillsPage } from './pages/SkillsPage';
+import { ProjectsPage } from './pages/ProjectsPage';
+import { CertificationsPage } from './pages/CertificationsPage';
+import { ContactPage } from './pages/ContactPage';
+import { Footer } from './components/Footer';
+import { queryClient } from './lib/queryClient';
 
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="min-h-screen bg-background text-foreground">
+      <div className="min-h-screen text-foreground relative">
         <CustomCursor />
         <ParallaxBackground />
         <Navigation />

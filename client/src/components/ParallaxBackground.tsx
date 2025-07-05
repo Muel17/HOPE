@@ -46,7 +46,15 @@ export const ParallaxBackground = () => {
   })), []);
 
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden">
+    <div 
+      className="fixed inset-0 pointer-events-none"
+      style={{ 
+        zIndex: -10,
+        background: 'linear-gradient(to bottom, #1e1b4b, #581c87, #1e293b)',
+        width: '100vw',
+        height: '100vh'
+      }}
+    >
       {/* Enhanced night sky gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-indigo-950 via-purple-950 to-slate-900" />
       

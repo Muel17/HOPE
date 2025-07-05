@@ -199,31 +199,103 @@ export const ParallaxBackground = () => {
 
             {/* Planets and cosmic objects */}
             <div ref={planetsRef} className="absolute inset-0">
-              {/* Distant planet 1 */}
-              <div
-                className="absolute w-6 h-6 bg-gradient-to-br from-red-400 to-red-600 rounded-full opacity-60 animate-pulse"
-                style={{ top: '30%', left: '8%', animationDuration: '4s' }}
-              />
-              
-              {/* Distant planet 2 */}
-              <div
-                className="absolute w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full opacity-50"
-                style={{ top: '70%', right: '15%' }}
+              {/* Flying Planet 1 - moves across screen */}
+              <motion.div
+                className="absolute w-8 h-8 bg-gradient-to-br from-red-400 to-red-600 rounded-full opacity-70"
+                animate={{
+                  x: ['-100px', '100vw'],
+                  y: [0, -50, 0],
+                }}
+                transition={{
+                  duration: 25,
+                  repeat: Infinity,
+                  ease: "linear",
+                }}
+                style={{ top: '25%' }}
               >
-                <div className="absolute inset-1 bg-gradient-to-br from-blue-300 to-blue-500 rounded-full opacity-60" />
-              </div>
+                <div className="absolute inset-1 bg-gradient-to-br from-red-300 to-red-500 rounded-full opacity-60" />
+              </motion.div>
+              
+              {/* Flying Planet 2 - larger, slower */}
+              <motion.div
+                className="absolute w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full opacity-60"
+                animate={{
+                  x: ['100vw', '-150px'],
+                  y: [0, 30, -20, 0],
+                }}
+                transition={{
+                  duration: 35,
+                  repeat: Infinity,
+                  ease: "linear",
+                  delay: 5,
+                }}
+                style={{ top: '60%' }}
+              >
+                <div className="absolute inset-2 bg-gradient-to-br from-blue-300 to-blue-500 rounded-full opacity-60" />
+              </motion.div>
               
               {/* Saturn-like planet with ring */}
-              <div className="absolute" style={{ top: '25%', right: '25%' }}>
+              <div className="absolute" style={{ top: '15%', right: '20%' }}>
                 <div className="relative w-10 h-10 bg-gradient-to-br from-yellow-300 to-orange-400 rounded-full opacity-60">
                   <div className="absolute -inset-2 border border-yellow-300 rounded-full opacity-30 transform rotate-12" />
                 </div>
               </div>
               
+              {/* Flying Asteroids */}
+              {[...Array(3)].map((_, i) => (
+                <motion.div
+                  key={i}
+                  className="absolute w-2 h-2 bg-gray-400 rounded-full opacity-50"
+                  animate={{
+                    x: ['-50px', '100vw'],
+                    y: [0, -10, 10, 0],
+                    rotate: [0, 360],
+                  }}
+                  transition={{
+                    duration: 15 + i * 5,
+                    repeat: Infinity,
+                    ease: "linear",
+                    delay: i * 3,
+                  }}
+                  style={{ top: `${40 + i * 10}%` }}
+                />
+              ))}
+              
+              {/* UFO */}
+              <motion.div
+                className="absolute"
+                animate={{
+                  x: ['-100px', '100vw'],
+                  y: [0, -20, 10, -15, 0],
+                }}
+                transition={{
+                  duration: 30,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  delay: 10,
+                }}
+                style={{ top: '35%' }}
+              >
+                <div className="relative w-16 h-8">
+                  {/* UFO body */}
+                  <div className="absolute w-16 h-8 bg-gradient-to-br from-gray-300 to-gray-500 rounded-full opacity-80">
+                    <div className="absolute inset-1 bg-gradient-to-br from-gray-200 to-gray-400 rounded-full opacity-60" />
+                  </div>
+                  {/* UFO dome */}
+                  <div className="absolute top-1 left-1/2 transform -translate-x-1/2 w-8 h-4 bg-gradient-to-br from-cyan-300 to-cyan-500 rounded-full opacity-70" />
+                  {/* UFO lights */}
+                  <div className="absolute bottom-0 left-2 w-1 h-1 bg-yellow-400 rounded-full opacity-80 animate-pulse" />
+                  <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-yellow-400 rounded-full opacity-80 animate-pulse" style={{ animationDelay: '0.3s' }} />
+                  <div className="absolute bottom-0 right-2 w-1 h-1 bg-yellow-400 rounded-full opacity-80 animate-pulse" style={{ animationDelay: '0.6s' }} />
+                  {/* UFO beam */}
+                  <div className="absolute top-8 left-1/2 transform -translate-x-1/2 w-8 h-16 bg-gradient-to-b from-cyan-300/30 to-transparent opacity-40" />
+                </div>
+              </motion.div>
+              
               {/* Nebula effect */}
               <div
                 className="absolute w-32 h-20 bg-gradient-to-r from-purple-500/20 via-pink-500/20 to-blue-500/20 rounded-full blur-xl opacity-30 animate-pulse"
-                style={{ top: '40%', left: '60%', animationDuration: '6s' }}
+                style={{ top: '50%', left: '70%', animationDuration: '6s' }}
               />
             </div>
           </motion.div>

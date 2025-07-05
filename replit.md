@@ -120,6 +120,16 @@ Changelog:
   * Reduced hover scale effects for smoother performance
   * Added transform-gpu classes for hardware acceleration
 
+- July 02, 2025. Added entrance animation and day/night theme system:
+  * Created smooth entrance animation that fades from dark to reveal content
+  * Added scroll-triggered introduction text with gradient effects
+  * Implemented day/night theme toggle system with context provider
+  * Added clickable moon/sun toggle button with smooth transitions
+  * Created day mode with mountain landscapes, flying birds, and clouds
+  * Enhanced night mode with improved stars, planets, and cosmic effects
+  * Added parallax scrolling for mountains with multiple depth layers
+  * Animated theme transitions with 2-second duration for smooth experience
+
 ## Development Notes
 
 ### Customization Variables

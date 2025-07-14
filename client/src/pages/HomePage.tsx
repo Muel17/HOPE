@@ -33,11 +33,11 @@ export const HomePage = () => {
               <span className="gradient-text">Welcome</span>
             </h1>
             <h2 className="text-2xl lg:text-4xl text-foreground-muted mb-8">
-              I'm a <span className="text-primary-400 text-glow">Full Stack Developer</span>
+              I'm a <span className="text-primary-400 text-glow">Cyber Security and Web Developer</span>
             </h2>
             <p className="text-lg lg:text-xl text-foreground-muted mb-12 max-w-2xl mx-auto">
               Crafting digital experiences with modern web technologies, 
-              3D animations, and interactive design
+              interactive design, and CyberSecurity penetration testing. 
             </p>
           </motion.div>
 

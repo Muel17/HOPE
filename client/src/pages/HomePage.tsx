@@ -36,8 +36,8 @@ export const HomePage = () => {
               I'm a <span className="text-primary-400 text-glow">Cyber Security and Web Developer</span>
             </h2>
             <p className="text-lg lg:text-xl text-foreground-muted mb-12 max-w-2xl mx-auto">
-              Crafting digital experiences with modern web technologies, 
-              interactive design, and CyberSecurity penetration testing. 
+              My name is Samuel Junio Sambuaga and I have experiences with modern web technologies,
+              interactive design, and CyberSecurity penetration testing.
             </p>
           </motion.div>
 

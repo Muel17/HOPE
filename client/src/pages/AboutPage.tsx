@@ -72,8 +72,8 @@ export const AboutPage = () => {
             About Me
           </h1>
           <p className="text-xl text-foreground-muted max-w-4xl mx-auto leading-relaxed">
-            I'm a passionate in Cyber Security and Web Developer with trying to creating a safe digital experiences. 
-            My journey began with curiosity about how websites work, and what's security works in internet and it has evolved into a career 
+            My name is Samuel Junio Sambuaga im third year student President University and I'm a passionate in Cyber Security and Web Developer with trying to creating a safe digital experiences.
+            My journey began with curiosity about how websites work, and what's security works in internet and it has evolved into a career
             dedicated to building innovative, user-centered safe application that make a difference.
           </p>
         </motion.div>

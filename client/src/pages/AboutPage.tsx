@@ -10,28 +10,28 @@ export const AboutPage = () => {
     },
     {
       icon: <Palette className="text-primary-400" size={24} />,
-      title: "Design-Focused",
+      title: "Design-Focused Website",
       description: "Creating beautiful, intuitive user experiences that combine functionality with aesthetics."
     },
     {
       icon: <Zap className="text-primary-400" size={24} />,
-      title: "Performance Optimized",
-      description: "Delivering fast, responsive applications that provide excellent user experiences."
+      title: "Performance",
+      description: "Delivering a theory and technically in Cyber Security Pentester or Risk Management  ."
     },
     {
       icon: <Users className="text-primary-400" size={24} />,
       title: "Collaborative",
-      description: "Working effectively with teams to deliver projects on time and exceed expectations."
+      description: "trying to Working effectively with teams to deliver projects on time and exceed expectations."
     },
     {
       icon: <Award className="text-primary-400" size={24} />,
       title: "Continuous Learner",
-      description: "Staying updated with the latest technologies and best practices in web development."
+      description: "Me sometimes staying updated with the latest technologies and try to practices in Cyber Security and Web Development."
     },
     {
       icon: <Coffee className="text-primary-400" size={24} />,
       title: "Problem Solver",
-      description: "Approaching challenges with creativity and persistence to find innovative solutions."
+      description: "Approaching challenges with my creativity and persistence to find innovative solutions."
     },
   ];
 
@@ -39,22 +39,22 @@ export const AboutPage = () => {
     {
       year: "2022",
       title: "Started Web Development Journey",
-      description: "Began learning HTML, CSS, and JavaScript. Built my first website and fell in love with creating digital experiences."
+      description: "Began learning HTML, CSS, Built my first website."
     },
     {
       year: "2023",
-      title: "Frontend Specialization",
-      description: "Mastered React, TypeScript, and modern CSS frameworks. Started building complex interactive applications."
+      title: "Cyber Security and Web Developer ",
+      description: "Sometimes I do trying to solve CTF at the moment and started to learn a Website as a developer also."
     },
     {
       year: "2024",
-      title: "Full Stack Development",
-      description: "Expanded skills to include backend technologies, databases, and cloud platforms. Launched several full-stack projects."
+      title: "Student at university",
+      description: "I'm learning about the network, the web development, and algorithm programming."
     },
     {
       year: "Present",
-      title: "Professional Development",
-      description: "Actively working on challenging projects, contributing to open source, and mentoring other developers."
+      title: "Concentration at Cyber Security ",
+      description: "Actively working on challenging Competition CTF and trying to explore tools, and at the moment I'm learning about web developer also "
     },
   ];
 
@@ -72,9 +72,9 @@ export const AboutPage = () => {
             About Me
           </h1>
           <p className="text-xl text-foreground-muted max-w-4xl mx-auto leading-relaxed">
-            I'm a passionate full-stack developer with a love for creating exceptional digital experiences. 
-            My journey began with curiosity about how websites work, and it has evolved into a career 
-            dedicated to building innovative, user-centered applications that make a difference.
+            I'm a passionate in Cyber Security and Web Developer with trying to creating a safe digital experiences. 
+            My journey began with curiosity about how websites work, and what's security works in internet and it has evolved into a career 
+            dedicated to building innovative, user-centered safe application that make a difference.
           </p>
         </motion.div>
 
@@ -96,12 +96,13 @@ export const AboutPage = () => {
                 projects that challenged me to grow.
               </p>
               <p>
-                Today, I specialize in creating modern, responsive web applications using cutting-edge 
-                technologies. I believe that great software is not just about functionality—it's about 
-                creating experiences that users love and that solve real problems in elegant ways.
+                My journey into Cyber Security Started with a simple question also: "How's the hacker think they're"
+                what began as curiosity quickly also turned into a passion as i discovered the power of hack
+                to bring a safe environment and deleting something unnecessary in internet.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, contributing to open 
+                When I'm not coding as a dev, you'll find me exploring trying to solve ctf as many as I can
+                and accessing something new technologies, contributing to open 
                 source projects, or sharing knowledge with the developer community. I'm always excited 
                 to take on new challenges and collaborate with others who share my passion for technology.
               </p>
@@ -203,19 +204,18 @@ export const AboutPage = () => {
             Beyond Code
           </h2>
           <p className="text-xl text-foreground-muted mb-8 max-w-3xl mx-auto leading-relaxed">
-            When I'm not immersed in code, I enjoy exploring new technologies, contributing to open source projects, 
-            and connecting with the developer community. I believe that continuous learning and sharing knowledge 
+            When I'm not immersed in code, I enjoy exploring new technologies and cyber Security News, contributing to open source projects, I believe that continuous learning and sharing knowledge 
             are essential for growth in this rapidly evolving field.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <span className="px-4 py-2 bg-primary-900/30 text-primary-300 rounded-full text-sm border border-primary-800/50">
-              Open Source Contributor
+              Cyber Security 
             </span>
             <span className="px-4 py-2 bg-primary-900/30 text-primary-300 rounded-full text-sm border border-primary-800/50">
               Tech Enthusiast
             </span>
             <span className="px-4 py-2 bg-primary-900/30 text-primary-300 rounded-full text-sm border border-primary-800/50">
-              Continuous Learner
+              Eager to Learn
             </span>
             <span className="px-4 py-2 bg-primary-900/30 text-primary-300 rounded-full text-sm border border-primary-800/50">
               Problem Solver

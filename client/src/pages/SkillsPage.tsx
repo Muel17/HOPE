@@ -187,8 +187,8 @@ export const SkillsPage = () => {
                 >
                   <div className="absolute left-2 w-4 h-4 bg-primary-600 rounded-full border-4 border-background"></div>
                   <div className="ml-12 backdrop-blur-glass rounded-lg p-6 border border-primary-800/30">
-                    <h3 className="text-lg font-semibold text-primary-400 mb-2">2023 - Frontend Focus</h3>
-                    <p className="text-foreground-muted">Mastered React, TypeScript, and modern CSS frameworks</p>
+                    <h3 className="text-lg font-semibold text-primary-400 mb-2">2023 - Cyber Security and Front end</h3>
+                    <p className="text-foreground-muted">try to looking the Cyber security and Front end </p>
                   </div>
                 </motion.div>
                 
@@ -201,8 +201,8 @@ export const SkillsPage = () => {
                 >
                   <div className="absolute left-2 w-4 h-4 bg-primary-600 rounded-full border-4 border-background"></div>
                   <div className="ml-12 backdrop-blur-glass rounded-lg p-6 border border-primary-800/30">
-                    <h3 className="text-lg font-semibold text-primary-400 mb-2">2024 - Full Stack Development</h3>
-                    <p className="text-foreground-muted">Expanded to backend technologies and cloud platforms</p>
+                    <h3 className="text-lg font-semibold text-primary-400 mb-2">2024 & Present - Cyber Security and Web Development</h3>
+                    <p className="text-foreground-muted">more focused on these two to build my career</p>
                   </div>
                 </motion.div>
               </div>

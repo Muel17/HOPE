@@ -68,17 +68,7 @@ const ProjectModal = ({ project, isOpen, onClose }: ProjectModalProps) => {
             </div>
             
             <div className="flex space-x-4">
-              {project.projectUrl && (
-                <a
-                  href={project.projectUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="cursor-hover flex items-center space-x-2 bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg transition-colors"
-                >
-                  <ExternalLink size={16} />
-                  <span>Live Demo</span>
-                </a>
-              )}
+              
               {project.githubUrl && (
                 <a
                   href={project.githubUrl}

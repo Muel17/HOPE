@@ -74,7 +74,7 @@ export const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
-                    <p className="text-foreground-muted">contact@example.com</p>
+                    <p className="text-foreground-muted">samuelnichole195@gmail.com</p>
                   </div>
                 </div>
                 
@@ -84,7 +84,7 @@ export const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
-                    <p className="text-foreground-muted">+1 (555) 123-4567</p>
+                    <p className="text-foreground-muted">+62896 7144 7385</p>
                   </div>
                 </div>
                 
@@ -94,7 +94,7 @@ export const ContactPage = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Location</h3>
-                    <p className="text-foreground-muted">San Francisco, CA</p>
+                    <p className="text-foreground-muted">Cikarang, Indonesia</p>
                   </div>
                 </div>
               </div>
@@ -106,13 +106,13 @@ export const ContactPage = () => {
                 </h3>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/Muel17"
                     className="cursor-hover w-12 h-12 bg-background-secondary border border-primary-800/30 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors"
                   >
                     <Github size={20} />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/samuel-j-sambuaga"
                     className="cursor-hover w-12 h-12 bg-background-secondary border border-primary-800/30 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors"
                   >
                     <Linkedin size={20} />
@@ -126,7 +126,7 @@ export const ContactPage = () => {
                   Availability
                 </h3>
                 <p className="text-foreground-muted mb-4">
-                  I'm currently available for freelance projects and full-time opportunities.
+                  I'm currently available for freelance projects and internship opportunities.
                 </p>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>

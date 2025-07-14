@@ -57,6 +57,11 @@ export const HomePage = () => {
                 Get In Touch
               </button>
             </Link>
+            <a href="/assets/CV SAMUEL.pdf" download="CV SAMUEL.pdf">
+              <button className="cursor-hover border border-primary-400 text-primary-400 hover:bg-primary-400 hover:text-background px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+                My CV
+              </button>
+            </a>
           </motion.div>
 
           <motion.div
@@ -65,13 +70,13 @@ export const HomePage = () => {
             transition={{ duration: 1, delay: 1.2 }}
             className="flex justify-center space-x-6"
           >
-            <a href="https://github.com" className="cursor-hover text-foreground-muted hover:text-primary-400 transition-colors duration-300">
+            <a href="https://github.com/MUEL17" className="cursor-hover text-foreground-muted hover:text-primary-400 transition-colors duration-300">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" className="cursor-hover text-foreground-muted hover:text-primary-400 transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/samuel-j-sambuaga" className="cursor-hover text-foreground-muted hover:text-primary-400 transition-colors duration-300">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:contact@example.com" className="cursor-hover text-foreground-muted hover:text-primary-400 transition-colors duration-300">
+            <a href="mailto:samuelnichole195@gmail.com" className="cursor-hover text-foreground-muted hover:text-primary-400 transition-colors duration-300">
               <Mail size={24} />
             </a>
           </motion.div>
@@ -142,7 +147,8 @@ export const HomePage = () => {
             <p className="text-lg text-foreground-muted mb-8 leading-relaxed">
               I'm a passionate full-stack developer with expertise in modern web technologies. 
               I love creating interactive experiences that combine functionality with beautiful design. 
-              My journey in tech spans across frontend frameworks, backend development, and everything in between.
+              My journey in tech spans across frontend frameworks, backend development, and everything in between, also i do love about
+              CyberSecurity penetration testing, do solve some challenges and make environments more secure.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
               <motion.div
@@ -150,7 +156,7 @@ export const HomePage = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="text-3xl font-bold text-primary-400 mb-2">50+</div>
+                <div className="text-3xl font-bold text-primary-400 mb-2">10+</div>
                 <div className="text-foreground-muted">Projects Completed</div>
               </motion.div>
               <motion.div
@@ -158,7 +164,7 @@ export const HomePage = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="text-3xl font-bold text-primary-400 mb-2">3+</div>
+                <div className="text-3xl font-bold text-primary-400 mb-2">2+</div>
                 <div className="text-foreground-muted">Years Experience</div>
               </motion.div>
               <motion.div
@@ -167,7 +173,7 @@ export const HomePage = () => {
                 transition={{ duration: 0.3 }}
               >
                 <div className="text-3xl font-bold text-primary-400 mb-2">15+</div>
-                <div className="text-foreground-muted">Technologies Mastered</div>
+                <div className="text-foreground-muted">Technologies Handle</div>
               </motion.div>
             </div>
           </motion.div>

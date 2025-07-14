@@ -303,12 +303,14 @@ export const ParallaxBackground = () => {
       </AnimatePresence>
 
       {/* Sun/Moon toggle button */}
-      <div ref={celestialRef} className="absolute top-10 right-16 pointer-events-auto">
+      <div ref={celestialRef} className="absolute top-10 right-16 pointer-events-auto z-50">
         <motion.button
           onClick={toggleTheme}
-          className="group relative cursor-pointer"
+          className="group relative cursor-pointer focus:outline-none hover:shadow-lg transition-shadow p-4 rounded-full"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
+          style={{ zIndex: 100 }}
+          title={isDayMode ? "Click to switch to Night Mode" : "Click to switch to Day Mode"}
         >
           <AnimatePresence mode="wait">
             {isDayMode ? (

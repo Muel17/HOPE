@@ -30,10 +30,10 @@ export const EntranceAnimation = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
-              Welcome to My Universe
+              Hi Folks!
             </h1>
             <p className="text-xl md:text-2xl text-white/80 max-w-2xl mx-auto">
-              Explore the cosmos of creativity
+              Welcome to my universe! 
             </p>
           </motion.div>
         </motion.div>

@@ -15,7 +15,7 @@ export const CustomCursor = () => {
           willChange: 'transform',
         }}
         animate={{
-          scale: isHovered ? 1.5 : 1,
+          scale: isHovered ? 1.2 : 1,
           opacity: isHovered ? 0.9 : 0.7,
         }}
         transition={{

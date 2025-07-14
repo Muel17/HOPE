@@ -9,7 +9,7 @@ import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { SkillsPage } from './pages/SkillsPage';
 import { ProjectsPage } from './pages/ProjectsPage';
-import { CertificationsPage } from './pages/CertificationsPage';
+// import { CertificationsPage } from './pages/CertificationsPage';
 import { ContactPage } from './pages/ContactPage';
 import { Footer } from './components/Footer';
 import { queryClient } from './lib/queryClient';
@@ -29,7 +29,7 @@ function App() {
             <Route path="/about" component={AboutPage} />
             <Route path="/skills" component={SkillsPage} />
             <Route path="/projects" component={ProjectsPage} />
-            <Route path="/certifications" component={CertificationsPage} />
+            {/* <Route path="/certifications" component={CertificationsPage} /> */}
             <Route path="/contact" component={ContactPage} />
           </Router>
           

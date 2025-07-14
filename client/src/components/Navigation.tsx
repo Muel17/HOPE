@@ -12,7 +12,6 @@ export const Navigation = () => {
     { label: 'About', href: '/about' },
     { label: 'Skills', href: '/skills' },
     { label: 'Projects', href: '/projects' },
-    { label: 'Certifications', href: '/certifications' },
     { label: 'Contact', href: '/contact' },
   ];
 
@@ -38,7 +37,7 @@ export const Navigation = () => {
           {/* Logo */}
           <Link href="/">
             <div className="cursor-hover text-2xl font-bold gradient-text">
-              Portfolio
+              Applelie
             </div>
           </Link>
 

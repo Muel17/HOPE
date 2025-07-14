@@ -10,9 +10,9 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-1">
-            <h3 className="text-2xl font-bold gradient-text mb-4">Portfolio</h3>
+            <h3 className="text-2xl font-bold gradient-text mb-4">Samuel J Sambuaga</h3>
             <p className="text-foreground-muted mb-4">
-              Building innovative web experiences with modern technologies and creative design.
+              Trying to be a better person :) 
             </p>
             <div className="flex space-x-4">
               <a
@@ -91,10 +91,10 @@ export const Footer = () => {
             <div className="space-y-2">
               <p className="text-foreground-muted">Available for freelance work</p>
               <p className="text-foreground-muted">
-                <span className="text-primary-400">Email:</span> contact@example.com
+                <span className="text-primary-400">Email: Samuelnichole195@gmail.com</span> Contact: 089671447385
               </p>
               <p className="text-foreground-muted">
-                <span className="text-primary-400">Location:</span> San Francisco, CA
+                <span className="text-primary-400">Location:</span> Karawang, Indonesia 
               </p>
             </div>
           </div>

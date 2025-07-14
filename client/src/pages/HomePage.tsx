@@ -57,11 +57,7 @@ export const HomePage = () => {
                 Get In Touch
               </button>
             </Link>
-            <a href="/assets/CV SAMUEL.pdf" download="CV SAMUEL.pdf">
-              <button className="cursor-hover border border-primary-400 text-primary-400 hover:bg-primary-400 hover:text-background px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
-                My CV
-              </button>
-            </a>
+            
           </motion.div>
 
           <motion.div

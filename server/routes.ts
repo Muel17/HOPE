@@ -1,6 +1,7 @@
 import { Request, Response, Router } from "express";
 import { insertContactSchema } from "@shared/schema";
 import { storage } from "./storage";
+import { sendContactEmail } from "./email";
 
 const router = Router();
 
@@ -9,6 +10,7 @@ router.post("/api/contact", async (req: Request, res: Response) => {
   try {
     const validatedData = insertContactSchema.parse(req.body);
     await storage.saveContact(validatedData);
+    await sendContactEmail(validatedData.name, validatedData.email, validatedData.message);
     res.json({ success: true, message: "Message sent successfully!" });
   } catch (error) {
     console.error("Contact form error:", error);
